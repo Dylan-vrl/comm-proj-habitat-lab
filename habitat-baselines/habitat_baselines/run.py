@@ -114,8 +114,8 @@ def run_exp(args) -> None:
 
     with read_write(config):
         # For logging
-        config.habitat_baselines.wb.project_name = "comm-proj"
-        config.habitat_baselines.wb.entity = "jiaweifu_ethz"
+        config.habitat_baselines.wb.project_name = "com304"
+        config.habitat_baselines.wb.entity = "dylan-vairoli"
         if config.habitat_baselines.wb.run_name == "":
             config.habitat_baselines.wb.run_name = attempt_run_name
         config.habitat_baselines.wb.run_id = args.resume_id
