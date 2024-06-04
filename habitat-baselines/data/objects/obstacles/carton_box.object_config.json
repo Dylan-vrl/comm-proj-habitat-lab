@@ -1,0 +1,5 @@
+{
+    "render_asset": "carton_box.glb",
+    "mass": 0.5,
+    "use_bounding_box_for_collision": true
+}

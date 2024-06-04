@@ -1,0 +1,6 @@
+{
+    "render_asset": "pink_ball6.glb",
+    "collision_asset": "pink_ball_collision.glb",
+    "mass": 0.5,
+    "use_bounding_box_for_collision": false
+}
