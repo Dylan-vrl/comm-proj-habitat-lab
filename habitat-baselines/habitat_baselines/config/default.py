@@ -41,3 +41,6 @@ def get_config(
     cfg = _habitat_get_config(config_path, overrides, configs_dir)
 
     return cfg
+
+if __name__ == "__main__":
+    print(get_config('targetnav/comm_proj_discrete.yaml'))
